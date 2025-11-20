@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ágoston Lautner // Tech Writer
+title: agoston lautner // tech writer // developer // system engineer
 description: >- # this means to ignore newlines until "baseurl:"
   This is the Technical Writing portfolio of Ágoston Lautner.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -26,8 +26,17 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  agolautner
 
 # Build settings
-theme: minima
+#theme: minima
+theme: no-style-please
 #remote_theme: pages-themes/hacker@v0.2.0
+
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+  lowercase_titles: true # show titles in lowercase in lists
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
