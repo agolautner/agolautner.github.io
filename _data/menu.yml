@@ -5,11 +5,6 @@ entries:
   - title: agoston@linux:~/$ <a href="/whoami">whoami</a>
     entries:
       - title: "Ágoston Lautner"
-      - title: github
-        url: https://github.com/agolautner
-      - title: linkedin
-        url: https://www.linkedin.com/in/agolautner/
-  - title: agoston@linux:~/$
 
   - title: agoston@linux:~/$ show-my-portfolio.sh --limit 5
     post_list:
@@ -19,6 +14,12 @@ entries:
       show_more_url: archive.html
 
   - title: agoston@linux:~/$
+  - title: agoston@linux:~/$ ls -la links
+  - title: drwxr-xr-x. 1 agoston agoston  276 Nov 21 00:17 .
+  - title: drwxr-xr-x. 1 agoston agoston  276 Nov 21 00:17 ..
+  - title: -rwxr-xr-x. 1 agoston agoston  4167 Nov 21 00:17 <a href="https://github.com/agolautner">github.py</a>
+  - title: -rwxr-xr-x. 1 agoston agoston  4207 Nov 21 00:17 <a href="https://www.linkedin.com/in/agolautner/">linkedin.sh</a>
+
 
   #- title: posts by category
   #  post_list:
