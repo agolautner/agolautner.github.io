@@ -27,7 +27,8 @@ github_username:  agolautner
 
 # Build settings
 #theme: minima
-theme: no-style-please
+#theme: no-style-please
+remote_theme: riggraz/no-style-please
 #remote_theme: pages-themes/hacker@v0.2.0
 
 theme_config:
