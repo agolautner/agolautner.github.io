@@ -24,10 +24,7 @@ However, games do not register any input from it.
 Many Linux distributions ship with the xpad kernel module. While this provides support for a wide variety of game controllers, it does not always handle Bluetooth connections reliably.
 ## Solution
 To allow Xbox One controllers to function properly over Bluetooth, replace `xpad` with `xpadneo`. This is a community-maintained kernel module that aims to expand the functionality of `xpad`.
-{% highlight txt%}
-Note: While some gaming-focused distributions include xpadneo by default, 
-most mainstream distros (such as Fedora, Ubuntu, Debian) do not.
-{% endhighlight %}
+> **Note:** While some gaming-focused distributions include `xpadneo` by default, most mainstream distros (such as Fedora, Ubuntu, Debian) do not.
 
 To fix the issue, you will:
 - Disable Secure Boot
