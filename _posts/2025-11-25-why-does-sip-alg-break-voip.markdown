@@ -38,4 +38,4 @@ This can explain the typical occurrence of a call being active, but no audio goi
 
 Fortunately, the solution for the issues caused by SIP ALG is quite simple in most cases: just turn the setting off.
 
-Truth is, SIP ALG is a stubborn remainder of technology that is no longer very relevant. Modern VoIP solutions, such as Teams and FreePBX handle NAT traversal themselves, using more modern protocols, such as **Session Traversal Utilities for NAT **, **Traversal Using Relays around NAT (TURN)** and **Interactive Connectivity Establishment (ICE)**.
+Truth is, SIP ALG is a stubborn remainder of technology that is no longer very relevant. Modern VoIP solutions, such as Teams and FreePBX handle NAT traversal themselves, using more modern protocols, such as **Session Traversal Utilities for NAT**, **Traversal Using Relays around NAT (TURN)** and **Interactive Connectivity Establishment (ICE)**.
