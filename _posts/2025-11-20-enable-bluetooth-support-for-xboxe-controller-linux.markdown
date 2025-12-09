@@ -102,7 +102,7 @@ lsmod | grep xpadneo
 {% highlight shell %}
 hid_xpadneo         45056   0
 {% endhighlight %}
-If you see simiar output, the module loaded correctly.
+If you see similar output, the module loaded correctly.
 
 ### Optional Step 6: Define rules for when to use the module
 With the `xpadneo` kernel module properly installed and loaded, Xbox One controllers should start behaving as expected over Bluetooth.
