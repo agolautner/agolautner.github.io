@@ -56,7 +56,7 @@ To disable Secure Boot:
 ### Step 2: Upgrade kernel
 To ensure your system is up to date, we recommend upgrading your operating system's kernel to the latest available version before proceeding.
 
-On Fedora and other RPM-based distributions, this can be done with the command below. For other distributions, consult your package mananger's documentation.
+On Fedora and other RPM-based distributions, this can be done with the command below. For other distributions, consult your package manager's documentation.
 {% highlight shell %}
 sudo dnf upgrade --refresh
 {% endhighlight %}
